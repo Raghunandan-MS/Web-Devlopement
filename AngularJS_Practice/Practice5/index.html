@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app = "spiceApp">
+<head>
+	<title> Spicy Example with Arguments </title>
+</head>
+<body ng-controller = "SpiceController">
+
+	<input type = "text" ng-model = "custom">
+	<br>
+	<br>
+	<button ng-click = "DisplaySpice('chilli')"> Chilli </button>
+	<button ng-click = "DisplaySpice(custom)"> Custom Spice </button>
+	<br>
+	<br>
+	<p> The food is {{spice}} spicy!!</p>
+
+	<script src = "C:/Users/rsuresh/Desktop/Codes/AngularJS_Practice/angular.min.js"></script>
+	<script src = "C:/Users/rsuresh/Desktop/Codes/AngularJS_Practice/Practice5/Controller.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app = "hierarchyApp">
+<head>
+	<title> Controller Hierarchy </title>
+</head>
+<body>
+
+	<div controller = "MainController">
+		<p> Name : {{name}} </p>
+		<p> Work Place : {{work}} </p>
+	</div>
+	<br>
+	<br>
+	<br>
+	<div controller = "UserController">
+		<ol>
+			<li ng-repeat = "user in users"> Name : {{user.name}} - {{user.work}} </li>
+		</ol>
+	</div>
+	<br>
+	<br>
+	<br>
+
+	<script src = "C:/Users/rsuresh/Desktop/Codes/AngularJS_Practice/angular.min.js"></script>
+	<script src = "C:/Users/rsuresh/Desktop/Codes/AngularJS_Practice/Practice7/Controller.js"></script>
+
+</body>
+</html>
